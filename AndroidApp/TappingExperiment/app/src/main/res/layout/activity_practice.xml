@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:id="@+id/tapping_exp_layout"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+
+    android:background="@color/colorPrimary"
+    >
+    <TextView
+        android:id="@+id/tapping_stim_text"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+
+        android:text="@string/tapping_exp_char"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textColor="?android:attr/textColorPrimaryInverse"/>
+    <TextView
+        android:id="@+id/tapping_trials_left"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+
+        android:text="@string/trialsLeft"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textColor="?android:attr/textColorPrimaryInverse"/>
+
+    <Button
+        android:text="@string/next_button"
+        android:layout_width="165dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/button"
+        android:background="@android:color/background_light"
+        android:onClick="onClickEvent"
+        />
+
+</LinearLayout>

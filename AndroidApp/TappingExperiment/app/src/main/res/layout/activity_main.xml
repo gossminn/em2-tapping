@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/lucl_logo"
+        android:contentDescription="@string/luclLogoDescr" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:textAlignment="center"
+        android:text="@string/top_message"
+        android:textSize="25sp"/>
+    <Button
+        android:id="@+id/instructions_button"
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"
+        android:text="@string/instructions_button"
+        android:onClick="launchInstructions" />
+    <Button
+        android:id="@+id/practice_button"
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"
+        android:text="@string/practice_button"
+        android:onClick="launchPractice"/>
+    <Button
+        android:id="@+id/tapping_exp_button"
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"
+        android:text="@string/tapping_exp_button"
+        android:onClick="launchTappingExperiment"/>
+    <EditText
+        android:id="@+id/participant_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/participant_id_edit"
+        android:layout_marginTop="50sp"/>
+    <Button
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"
+        android:text="@string/participant_id_send"
+        android:textColor="@color/colorAccent"
+        android:onClick="setID"/>
+    <Button
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"
+        android:text="@string/next_participant_button"
+        android:textColor="@color/colorAccent"
+        android:onClick="nextParticipant"/>
+</LinearLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Experimental Methods II</string>
+    <string name="title_main_activity">LUCL Experimentele Taalwetenschap</string>
+    <string name="title_instructions">Uitleg</string>
+    <string name="title_practice">Oefenrondes</string>
+    <string name="title_activity_trial">Testrondes</string>
+    <string name="edit_message">Enter a message</string>
+    <string name="tapping_exp_button">Testrondes</string>
+    <string name="top_message">Welkom bij dit experiment. Druk op één van de knoppen hieronder om verder te gaan.</string>
+    <string name="tapping_exp_char">Druk op OK om verder te gaan.</string>
+    <string name="title_activity_trial_dialog">TrialDialog</string>
+    <string name="fixation_marker">+</string>
+    <string name="trialsLeft">Er zijn nog … rondes over.</string>
+    <string name="next_button">OK</string>
+    <string name="instructions_button">Uitleg</string>
+    <string name="practice_button">Oefenrondes</string>
+    <string name="questionnaire_button">Vragenlijst</string>
+    <string name="luclLogoDescr">LUCL Logo</string>
+    <string name="instructions_text">
+        In dit experiment krijg je een aantal reeksen plaatjes te zien, die steeds, één voor één,
+        voor korte tijd op het scherm te zien zullen zijn. Jouw taak is om zo snel mogelijk op het
+        scherm te tikken zodra je het volgende plaatje ziet:
+    </string>
+    <string name="instructions_text_cont">
+        Als je op het scherm tikt, zal het scherm blauw oplichten. Let op: dit geeft alleen aan
+        dat je reactie is geregistreerd, en niet of je reactie goed was!
+        \n\n
+        Het experiment bestaat uit twee fases: er zijn eerst een aantal oefenrondes, waarin je kunt
+        oefenen met zo snel mogelijk reageren. Vervolgens zijn er een aantal testrondes, waarin we
+        testen hoe snel je bent geworden.
+        \n\n
+        Probeer steeds zo snel en accuraat mogelijk antwoord te geven.
+        \n\n
+        Druk op \'Terug\' om terug te gaan naar het hoofdmenu.
+    </string>
+    <string name="grinning_cat_descr">Grinning cat</string>
+    <string name="back_button">Terug</string>
+    <string name="participant_id_edit">Voer participantnummer in</string>
+    <string name="participant_id_send">Verzend</string>
+    <string name="next_participant_button">Volgende proefpersoon</string>
+</resources>
